@@ -1,0 +1,19 @@
+{
+  "name": "flashcardgen",
+  "version": "1.0.0",
+  "description": "Homework for Northwestern Coding Bootcamp",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/circlegetsquare/Flashcard-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/circlegetsquare/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/circlegetsquare/Flashcard-Generator#readme"
+}
