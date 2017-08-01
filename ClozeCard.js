@@ -1,18 +1,12 @@
-// Constructor function for creating cloze card object
+// Constructor function for creating cloze card objects
 
-var ClozeCard = function(text, cloze) {
-
-  if (text.includes("...")){
-    this.status = true;
+function ClozeCard (text, cloze) {
+    if (!(this instanceof ClozeCard)) {
+        return new ClozeCard(text, cloze);
+    }
     this.text = text;
     this.cloze = cloze;
-    this.fullText = text.replace("...", cloze);
-  }
-
-  else {
-    this.status = false;
-  }
+    this.partialText = text.replace(cloze, "...");
 };
 
-// Exporting our CastMember constructor. We will require it in movie.js
 module.exports = ClozeCard;
